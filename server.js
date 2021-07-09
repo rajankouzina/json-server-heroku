@@ -8,3 +8,9 @@ server.use(middlewares);
 server.use(router);
 
 server.listen(port);
+
+server.use(function (req, res, next) {
+    res.setHeader('Access-Control-Expose-Headers', 'Content-Range');
+    res.setHeader('Content-Range', 'posts 0-24/319');
+    next();
+});

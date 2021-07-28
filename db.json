@@ -1,9 +1,9 @@
 {
-  "tenant": {},
-  "user": {},
-  "user_attr": {},
-  "user_attr_mapping": {},
-  "role": {},
-  "role_acl": {},
-  "role_acl_mapping": {}
+  "tenant": [],
+  "user": [],
+  "user_attr": [],
+  "user_attr_mapping": [],
+  "role": [],
+  "role_acl": [],
+  "role_acl_mapping": []
 }
